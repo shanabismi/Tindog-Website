@@ -1,0 +1,183 @@
+body{
+font-family: 'Montserrat-black', sans-serif;
+text-align: center;
+}
+
+/* headings */
+h1,h2,h3{
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 900;
+}
+
+.fluid-container{
+  padding : 3% 10%;
+}
+
+/* sections */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+background-color: #fff;
+color: #000;
+}
+
+/*    Download Buttons */
+
+.download-button{
+  margin-bottom: 3%;
+}
+
+.download-button i{
+  margin-right: 10%;
+}
+
+/* Title section */
+#title{
+  text-align: left;
+}
+/* navigation Bar */
+.navbar{
+padding:0 0 0.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.nav-item{
+  margin-right: 10%;
+  font-size: 1rem;
+  font-family: "Montserrat-light",sans-serif;
+}
+
+/*image */
+.title-image{
+ width: 60%;
+ position: absolute;
+ z-index: 1;
+ transform: rotate(25deg);
+}
+
+/* features section  */
+#features{
+  position: relative;
+  z-index: 2;
+}
+
+.features_col{
+  padding: 50px;
+}
+
+.features_col i{
+  color: #ff9b93;
+  margin-bottom:10%;  
+}
+
+.features_col:hover i{
+  color: #ff4646;
+}
+
+.features_col p{
+    color: #a6a9b6;
+  }
+
+.features_col h3{
+  font-size: 1.5rem;
+}
+
+/* Testimonial section  */
+#testimonials{
+  background-color: #ff9b93;
+  color: #fff;
+}
+
+.carousel-item{
+padding: 4% 20%;
+}
+
+.testimonials-image{
+  width: 25%;
+  border-radius: 100%;
+}
+
+/*press section */
+#press{
+  background-color: #ff9b93;
+}
+
+.press-image{
+width: 10%;
+margin: 0 2%;
+}
+
+/* Pricing Section */
+#pricing h2{
+  font-weight: 700;
+}
+
+.card{
+  margin-bottom: 3%;
+}
+
+.row .card-header h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.row .card-body h2{
+  font-weight: 700;
+}
+
+/* CTA section */
+
+#cta h3{
+  padding: 3% 15%;
+  font-size: 2rem;
+}
+
+/* Footer Section */
+.social a{
+color: #000;
+margin: 3% 1%;
+}
+
+@media (max-width:990px) {
+
+  h1{
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    margin-bottom: 5%;
+   position: static;
+   transform: rotate(0);
+  }
+
+  #title button{
+    margin-bottom: 5%;
+  }
+
+
+  #testimonials h2{
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  #cta button{
+    margin-bottom: 5%;
+  }
+
+
+
+}
